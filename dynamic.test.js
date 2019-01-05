@@ -22,4 +22,7 @@ describe('Dynamically switching parent class', () => {
     expect(target).toBeInstanceOf(BrowserFS);
     expect(target.cwd()).toMatch(/^\/test$/);
   });
+  test('throws without new', () => {
+    expect(Dynamic).toThrow('Uncaught TypeError: Class constructor Dynamic cannot be invoked without \'new\'');
+  });
 });
