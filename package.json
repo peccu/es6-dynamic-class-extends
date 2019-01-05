@@ -1,0 +1,30 @@
+{
+  "name": "es6-dynamic-class-extends",
+  "version": "1.0.0",
+  "description": "Dynamic Class extends example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peccu/es6-dynamic-class-extends.git"
+  },
+  "author": "peccu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peccu/es6-dynamic-class-extends/issues"
+  },
+  "homepage": "https://github.com/peccu/es6-dynamic-class-extends#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.2.0"
+  }
+}
