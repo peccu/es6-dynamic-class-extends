@@ -2,6 +2,7 @@
 
 [![Travis CI](https://travis-ci.com/peccu/es6-dynamic-class-extends.svg)](https://travis-ci.com/peccu/es6-dynamic-class-extends)
 [![Coverage Status](https://coveralls.io/repos/github/peccu/es6-dynamic-class-extends/badge.svg)](https://coveralls.io/github/peccu/es6-dynamic-class-extends)
+[![codecov](https://codecov.io/gh/peccu/es6-dynamic-class-extends/branch/master/graph/badge.svg)](https://codecov.io/gh/peccu/es6-dynamic-class-extends)
 [![CircleCI](https://circleci.com/gh/peccu/es6-dynamic-class-extends.svg?style=svg)](https://circleci.com/gh/peccu/es6-dynamic-class-extends)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c67a28c9de7c49caa38190961a4bc868)](https://www.codacy.com/app/peccu/es6-dynamic-class-extends)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/c67a28c9de7c49caa38190961a4bc868)](https://www.codacy.com/app/peccu/es6-dynamic-class-extends)
