@@ -13,7 +13,7 @@ describe('Dynamically switching parent class', () => {
     // This is not class but function
     // expect(target).toBeInstanceOf(Dynamic);
     expect(target).toBeInstanceOf(FS);
-    expect(target.cwd()).toMatch(/\/es6-dynamic-class-extends\/test$/);
+    expect(target.cwd()).toMatch(/\/[^\/]+\/test$/);
   });
   test('extends BrowserFS', () => {
     let target = new Dynamic({wd: 'test', backend: 'browserfs'});
