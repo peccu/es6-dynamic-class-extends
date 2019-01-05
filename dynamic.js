@@ -33,7 +33,7 @@ export class DefaultClass {
 };
 const Dynamic = function(config = {}){
   if(!new.target){
-    throw "Uncaught TypeError: Class constructor Dynamic cannot be invoked without 'new'";
+    throw 'Uncaught TypeError: Class constructor Dynamic cannot be invoked without \'new\'';
   }
   if(config.backend === 'fs'){
     class Dynamic extends FS {
