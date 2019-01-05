@@ -23,6 +23,7 @@ $ npm test
     ✓ non specified class (35ms)
     ✓ extends FS (9ms)
     ✓ extends BrowserFS (11ms)
+    ✓ throws without new (1ms)
 
   console.log dynamic.js:26
     Plain constructor called with { wd: 'test' }
@@ -49,8 +50,8 @@ $ npm test
     current working directory is /test
 
 Test Suites: 1 passed, 1 total
-Tests:       3 passed, 3 total
+Tests:       4 passed, 4 total
 Snapshots:   0 total
-Time:        0.725s, estimated 2s
+Time:        0.736s, estimated 1s
 Ran all test suites.
 ```
