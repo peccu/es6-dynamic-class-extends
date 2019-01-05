@@ -4,9 +4,10 @@
   "description": "Dynamic Class extends example.",
   "main": "index.js",
   "scripts": {
-    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "codacy-coverage": "jest --coverage --coverageReporters=text-lcov | codacy-coverage",
-    "codecov": "jest --coverage && codecov",
+    "coverageReport": "jest --coverage ; npm run coveralls ; npm run codacy-coverage ; npm run codecov",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "codacy-coverage": "cat ./coverage/lcov.info | codacy-coverage",
+    "codecov": "codecov",
     "test": "jest"
   },
   "repository": {
